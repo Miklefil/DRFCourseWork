@@ -1,13 +1,10 @@
 **Coursework DRF**
 
 
-Настройка DRF в Docker Сборка с yaml файлом Создание образа из Dockerfile: docker-compose build
-
-с запуском контейнера: docker-compose up --build
-
-с запуском контейнера в фоновом режиме: docker-compose up -d --build
-
-Запуск контейнера: docker-compose up
+- Создать и заполнить файл переменных окружения .env.docker с учетом настроек в файле docker-compose.yml
+- Создать образы и контейнеры DOCKER с помощью команд
+  - docker-compose build
+  - docker-compose up
 
 *В данной курсовой работе реализовано приложении `DRF`.*
 
